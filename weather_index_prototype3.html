@@ -1,0 +1,42 @@
+<!-- Name: Juja Manandhar
+University ID: 2226701 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather Prototype 3</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="./weather_style_prototype3.css">
+	<script src="./weather_script_prototype3.js"></script>
+</head>
+<body onload="pageload()">
+
+	<div class= "flex-container1">
+		<div style="flex-grow: 6" class="search">
+			<input type="text" id= "city_name" class="search-bar" placeholder="Search">
+			<button onclick="call_weather()" class="search_icon"><i class="material-icons">search</i></button>
+		</div>
+		<div style="flex-grow: 4">
+			<!-- <div class="time"></div> -->
+			<div class="date">7/26/2022</div>
+		</div>
+	</div>
+
+	<div class = "flex-container2">
+		<div class= "box">
+			<h2 class="city"></h2>
+			<h1 class="temp"></h1>
+			<div class="description"></div>
+			<div class="humidity"></div>
+			<div class="wind"></div>
+			<div class="pressure"></div>
+		</div>
+	</div>
+
+</body>
+</html>
